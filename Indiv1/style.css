@@ -1,0 +1,30 @@
+
+body {
+  background-color: #1F2D44; 
+  font-family: sans-serif;
+  color: #faf6ec; }
+
+  h1, h2, h3, h4 {color: #e1a31e; 
+                     }
+
+h1 {
+    text-shadow: 1px 1px 2px  #faf6ec;
+    text-align: center;
+}
+  a:link {
+    color: #e1a31e }
+  a:visited {
+    color: #aedfe7 }
+  
+    span {
+        border-style: dotted;
+        border-width: 2px;
+        border-color: #faf6ec }
+        #second { font-style: italic; }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}

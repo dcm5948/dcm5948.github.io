@@ -1,0 +1,123 @@
+:root {
+    --bg-color: #7b1b38;
+    --header-color: white;
+    --font-color: white;
+}
+
+body {
+    background-color: var(--bg-color);
+    font: var(--font-color);
+    text-align: center;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+ h1 {
+    color: var(--font-color);
+    text-align: center;
+    font-size: 100px;
+ }
+h2 {
+     color: var(--font-color);
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+ .menu img {
+    width: 500px;
+ }
+
+
+.footereverything {
+    color: var(--font-color);
+}
+ .food {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+ }
+ .food h2 {
+    width: 80%;
+    text-align: center;
+ }
+
+ .menu {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px  rgb(42, 3, 3);
+ }
+
+@media screen and (max-width: 599px) {
+    .food {
+        display: none;
+    }
+.menu {
+    display: none;
+}
+    footer {
+        display: none;
+    }
+
+    .directions {
+        display: block;
+        padding: 15px;
+    }
+.directions img {
+    width: 100%;
+}
+.description {display: none;}
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .food {
+        display: block;
+        padding: 20px;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        width: 90%;
+        height: auto;
+        margin: 0 auto 20px auto;
+    }
+
+    .menu img {
+        width: 35%;
+        height: auto;
+    }
+.description {
+    display: block;
+    width: 70%;
+    font-size:larger;
+    padding: 12px;
+    text-align: left;
+    color: white;
+}
+.footercontact {
+    display: block;
+}
+.footereverything {
+    display: none;
+}
+    .directions {
+        display: none;
+    }
+}
+
+@media all and (min-width: 1025px) {
+
+    .footercontact {display: none;}
+
+    .description {display: none;}
+
+    .directions {display: none;}
+
+}
+

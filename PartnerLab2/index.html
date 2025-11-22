@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Interactive Website</title>
+    <script src="program.js"></script>
+     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Whisper&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <h1 id="greeting">Hi there!</h1>
+    <p id="message">Welcome to my interactive page. Use the buttons below to customize this page the way you like. Have fun!</p>
+    <br/>
+    <br/>
+
+    <label for="name">Please enter your name:</label><br/>
+    <input type="text" id="name" name="name"><br/>
+    <br/>
+    <label for="messageInput">Write a brief message:</label><br/>
+    <input type="text" id="messageInput" name="messageInput"><br/>
+    <br/>
+    <label for="color">Please choose a background color:</label><br/>
+    <select name="options" id="options">
+        <option value="#111D72">Blue</option>
+        <option value="#FEAAB0">Pink</option>
+        <option value="#752DF7">Purple</option>
+        <option value="#2F2E2E">Black</option>
+        <option value="#FFB154">Orange</option>
+    </select>
+    <br/>
+    <br/>
+    <input type="button" value="Submit" onclick="submitChanges();">
+    </body>
+    </html>

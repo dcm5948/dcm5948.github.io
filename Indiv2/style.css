@@ -1,0 +1,134 @@
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 15px;
+    background-color: #9cb8b7;
+}
+nav li {
+    flex-basis: 100px;
+    flex-shrink: 1;
+    text-align: center;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: #EAE0C7;
+}
+
+nav {
+    width: 100%;
+    height: 30px;
+    background-color: #9cb8b7;
+   
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: normal;
+    gap: 10px;
+   
+    
+}
+
+.photo:hover {
+    transform: translate(0px, 50px);
+    transform: scale(1.5, 1.5);
+}
+
+.photo {
+    padding: 5px;
+    box-shadow: 2px 2px 2px lightblue;
+    width: 200px;
+    text-align: center;
+     background-color: #9cb8b7;
+
+}
+
+.photo img {
+    width: 200px; 
+
+}
+
+body {
+    background-color: #EAE0C7;
+     font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2e211c;
+}
+
+h1 {
+   font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  color: #c06226;
+}
+
+h2 {
+    font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  color:#c06226;
+}
+
+table {
+margin: 0 auto;
+}
+
+th {
+text-align: center;
+background-color:#c06226;
+color:#EAE0C7
+}
+
+td {
+    text-align: left;
+
+}
+
+ th, td {
+    border-bottom: 2px solid #c06226;
+    border-right: 1px solid #c06226;
+}
+
+footer {
+    text-align:center;
+    background-color:#2e211c;
+    position: fixed;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    color:#EAE0C7;
+}
+
+.records {
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 400px;
+}
+.about {
+    
+    text-align: justify;
+    font-size: 120%;
+    
+}
+
+.about-container {
+    width: 80%;
+position: relative;
+
+}
+
+.vinyl {
+    width: 300px;
+  position: absolute;
+  left: 150px;
+  bottom: -80px;
+
+}

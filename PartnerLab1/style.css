@@ -1,0 +1,91 @@
+.bg-img {
+    background-image: url("headerbackground.jpg");
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto; 
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+
+
+.topnav a {
+    
+    color: #e9e5d1; 
+    text-align: center; 
+    padding: 20px 16px; 
+    text-decoration: none; 
+    font-size: 17px;
+  
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+h1 { 
+    font-family: "Climate Crisis", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "YEAR" 1979;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: #e9e5d1; 
+  padding: 0;
+
+}
+
+body {background-color: #351515; 
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+    color: #e9e5d1;
+text-align: center; }
+
+.text-box-main {
+    max-width: 500px;
+    font-size: 30px;
+    font-style: italic;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+
+}
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+.trio img{
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+span {
+    background-color: #bf8b67;
+}
+
+
+.label { 
+    background-color: #bf8b67;
+
+}
+
+.jazz-player {
+    float: left;
+    margin: 0 20px 20px 20px;
+    width: 500px;
+}
