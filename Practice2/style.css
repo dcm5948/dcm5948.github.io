@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #fbfce6;
+    font-size: larger;
+}
+h1 {
+    color: #fbfce6;
+    font-size: 60px;
+}
+
+h2 {
+    color: #fbfce6;
+}
+
+.h2other {
+    color:rgb(39, 39, 68)
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 210px);
+    gap: 20px;
+}
+
+header {
+    grid-column: 1 / 6;
+    grid-row: 1;
+    background-color: rgb(57, 39, 34);
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    grid-column: 1;
+    grid-row: 2 / 5;
+    
+
+ 
+}
+
+aside img{
+    width: 500px;
+    filter: drop-shadow(16px 16px 10px rgb(57, 39, 34)) sepia(20%);
+    
+    
+}
+
+
+main {
+    grid-column: 2 / 6;
+    grid-row: 2 / 3;
+    justify-content: space-around;
+    
+    text-align: justify;
+    
+    
+}
+.sec1 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+.sec1 img {
+    width: 500px;
+    transform: scale(2.0, 2.0);
+    transform: rotate(45deg);
+}
+
+.sec2 {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+
+}
+.sec2 img {
+    width: 500px;
+    animation-name: moveRight;
+    animation-duration: 4s;
+    
+}
+
+footer {
+    grid-column: 1 / 6;
+    grid-row: 5;
+    background-color: rgb(214, 228, 232);
+    color: rgb(57, 39, 34);
+    justify-content: center;
+    align-items: center;
+   
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(100px);
+    }
+}
